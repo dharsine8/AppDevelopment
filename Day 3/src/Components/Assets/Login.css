@@ -1,0 +1,80 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-container {
+    width: 40vw;
+    height: 40vh;
+    /* max-width: 10px;
+    margin-top: 10px;
+    padding: 20px; */
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+.login-container {
+    /* width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px; */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center; /* Center the image */
+    text-align: center;
+    /* display: flex align center; */
+  }
+  
+  .form-group input {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #00050a;
+  }
+  
+  button {
+    width: 40%;
+    padding: 10px;
+    background-color: #000000;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 3px 4px 6px rgba(243, 24, 196, 0.765); /* Add a subtle box shadow */
+    text-transform: uppercase; /* Uppercase text */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
