@@ -1,0 +1,61 @@
+.signin {
+  background-image: url("C:\\Users\\91994\\Downloads\\Untitled design (5).png");
+  background-size: cover;
+  height: 100vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-container {
+  max-width: 400px;
+  margin: 0 auto; 
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #f7f3f3d7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: -100px;
+  height:350px;
+  width: 500px;
+}
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

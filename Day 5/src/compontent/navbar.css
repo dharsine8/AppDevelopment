@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300;400;500;600&family=Roboto+Condensed:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    height: 10vh;
+    line-height: 10vh;
+    box-shadow: rgba(6, 165, 239, 0.23) 0 30px 30px -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 40px;
+    margin-left: 50px;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+.nav-links li{
+    color: black;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.hero{
+    text-align: center;
+    margin-top: 10%;
+}
+.hero h1{
+    text-align: center;
+    font-size: 80px;
+}
+button{
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+.menu-icon{
+    display: none;
+    position: fixed;
+}
+@media (max-width:768px) {
+    .nav-links{
+       display: none;
+  }
+   .nav-links-menu{
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(6, 165, 239, 0.23) 0 30px 30px -20px;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color: white;
+   }
+   ul li{
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+   }
+   .menu-icon{
+    position: fixed;
+    display: block;
+    right: 20px;
+   }
+   .hero h1{
+    font-size: 50px;
+   }
+}
